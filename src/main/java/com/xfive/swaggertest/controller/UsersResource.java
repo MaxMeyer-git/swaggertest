@@ -2,6 +2,7 @@ package com.xfive.swaggertest.controller;
 
 
 import com.xfive.swaggertest.someClasses.User;
+import io.swagger.annotations.ApiParam;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
@@ -17,7 +18,7 @@ import java.util.List;
 @RequestMapping ("/rest/user")
 public class UsersResource {
 
-    @GetMapping
+    @GetMapping ("/")
     public List<User> getUsers() {
         return Arrays.asList(
                 new User("Peter", 2000L),
@@ -27,7 +28,9 @@ public class UsersResource {
 
 
     @GetMapping("/{userName}")
-    public User getUser(@PathVariable("userName") final String userName) {
+    public User getUser(
+            @ApiParam (value = "UserName - enter a name to get it back")
+            @PathVariable("userName") final String userName) {
         return new User(userName, 100L);
     }
 
