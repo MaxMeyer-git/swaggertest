@@ -1,6 +1,8 @@
 package com.xfive.swaggertest.controller;
 
 
+import com.xfive.swaggertest.someClasses.TarifFunctionalities;
+import com.xfive.swaggertest.someClasses.TariffCreationRequest;
 import com.xfive.swaggertest.someClasses.User;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiParam;
@@ -9,10 +11,11 @@ import io.swagger.annotations.Tag;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
+import lombok.var;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 import static com.google.common.base.Preconditions.checkArgument;
 
@@ -21,6 +24,47 @@ import static com.google.common.base.Preconditions.checkArgument;
 @RestController
 @RequestMapping ("/rest/user")
 public class UsersResource {
+
+
+    @PostMapping
+//    @ValidateAuthToken
+    public TariffCreationRequest create(
+            @Validated
+                                            @RequestBody TariffCreationRequest request) {
+
+//        var tariff = tariffService.create(request);
+
+        return request;
+    }
+
+    @GetMapping ("/funk/{tarifset}")
+    public  EnumSet<TarifFunctionalities> getTariffs (@PathVariable String tarifset ){
+        return TarifFunctionalities.getBuildReport(tarifset);
+
+    }
+
+    @GetMapping ("/tariff")
+    public TariffCreationRequest getTarif () {
+
+        Set<UUID> uuids =new HashSet<>();
+        uuids.add((UUID.randomUUID()));
+        uuids.add((UUID.randomUUID()));
+        uuids.add((UUID.randomUUID()));
+
+        Set<TarifFunctionalities> functionalities =  new HashSet<>();
+        functionalities.add(TarifFunctionalities.PRODUCT_GROUP_ALL);
+        functionalities.add(TarifFunctionalities.REPORT_VIEW);
+        functionalities.add(TarifFunctionalities.REPORT_COPY);
+
+        var tarif = new TariffCreationRequest("Lol",
+                uuids,
+                functionalities,
+                false);
+
+        return tarif;
+    }
+
+
 
     @GetMapping ("/")
     public List<User> getUsers() {
