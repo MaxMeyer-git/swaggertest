@@ -1,16 +1,12 @@
 package com.xfive.swaggertest.controller;
 
 
-import com.xfive.swaggertest.someClasses.TarifFunctionalities;
-import com.xfive.swaggertest.someClasses.TariffCreationRequest;
+import com.xfive.swaggertest.serrtest.*;
 import com.xfive.swaggertest.someClasses.User;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiParam;
 import io.swagger.annotations.SwaggerDefinition;
 import io.swagger.annotations.Tag;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.Setter;
 import lombok.var;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
@@ -29,81 +25,62 @@ public class UsersResource {
     @PostMapping
 //    @ValidateAuthToken
     public TariffCreationRequest create(
-            @Validated
-                                            @RequestBody TariffCreationRequest request) {
+            @Validated @RequestBody TariffCreationRequest request) {
 
 //        var tariff = tariffService.create(request);
 
         return request;
     }
 
-    @GetMapping ("/funk/{tarifset}")
-    public  EnumSet<TarifFunctionalities> getTariffs (@PathVariable String tarifset ){
-        return TarifFunctionalities.getBuildReport(tarifset);
 
-    }
 
     @GetMapping ("/tariff")
     public TariffCreationRequest getTarif () {
 
-        Set<UUID> uuids =new HashSet<>();
-        uuids.add((UUID.randomUUID()));
-        uuids.add((UUID.randomUUID()));
-        uuids.add((UUID.randomUUID()));
+        return new TarReqCreate().creationRequest();
 
-        Set<TarifFunctionalities> functionalities =  new HashSet<>();
-        functionalities.add(TarifFunctionalities.PRODUCT_GROUP_ALL);
-        functionalities.add(TarifFunctionalities.REPORT_VIEW);
-        functionalities.add(TarifFunctionalities.REPORT_COPY);
-
-        var tarif = new TariffCreationRequest("Lol",
-                uuids,
-                functionalities,
-                false);
-
-        return tarif;
     }
 
 
-
-    @GetMapping ("/")
-    public List<User> getUsers() {
-        return Arrays.asList(
-                new User("Peter", 2000),
-                new User("Peter", 2000)
-        );
-    }
-
-
-    @GetMapping("/{userName}")
-    public User getUser(
-            @ApiParam (value = "UserName - enter a name to get it full profile")
-            @PathVariable("userName") final String userName) {
-        return new User(userName, 100);
-    }
-
-    @GetMapping
-//            ("/{userName}")
-    public User getNewUser (
-            @RequestHeader(name = "Authorization") String token,
-
-            @RequestParam(value = "name", required = false, defaultValue = "Vasya")
-            @ApiParam(value = "Set some user name", example = "Vasya") String  name,
-
-            @RequestParam(value = "salary", required = false, defaultValue = "10")
-            @ApiParam(value = "Enter users salary", example = "32") Integer salary){
-
-        if (token.equals("test")){
-            return new User("Test person", 9999);
-
-        }if (token.equals("Secret")){
-//            checkArgument(token != null );
-            return new User("пасхалка", 44);
-        }
-        else {
-            return new User(name, salary);
-        }
-    }
+//
+//    @GetMapping ("/")
+//    public List<User> getUsers() {
+//        return Arrays.asList(
+//                new User("Peter", 2000),
+//                new User("Peter", 2000)
+//        );
+//    }
+//
+//
+//    @GetMapping("/{userName}")
+//    public User getUser(
+//            @ApiParam (value = "UserName - enter a name to get it full profile")
+//            @PathVariable("userName") final String userName) {
+//        return new User(userName, 100);
+//    }
+//
+//    @GetMapping
+////            ("/{userName}")
+//    public User getNewUser (
+//            @RequestHeader(name = "Authorization") String token,
+//
+//            @RequestParam(value = "name", required = false, defaultValue = "Vasya")
+//            @ApiParam(value = "Set some user name", example = "Vasya") String  name,
+//
+//            @RequestParam(value = "salary", required = false, defaultValue = "10")
+//            @ApiParam(value = "Enter users salary", example = "32") Integer salary){
+//
+//        if (token.equals("test")){
+//            return new User("Test person", 9999);
+//
+//        }if (token.equals("Secret")){
+////            checkArgument(token != null );
+//            return new User("пасхалка", 44);
+//        }
+//        else {
+//            return new User(name, salary);
+//        }
+//    }
 
 
 }
