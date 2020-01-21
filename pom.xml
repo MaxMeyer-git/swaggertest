@@ -52,14 +52,22 @@
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-core</artifactId>
-            <version>5.4.9.Final</version>
+            <version>5.4.7.Final</version>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/postgresql/postgresql -->
+<!--        <dependency>-->
+<!--            <groupId>postgresql</groupId>-->
+<!--            <artifactId>postgresql</artifactId>-->
+<!--            <version>9.1-901.jdbc4</version>-->
+<!--        </dependency>-->
+
         <dependency>
-            <groupId>postgresql</groupId>
-            <artifactId>postgresql</artifactId>
-            <version>9.1-901.jdbc4</version>
+            <groupId>com.oracle</groupId>
+            <artifactId>ojdbc8</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>R:/Java/forTests/hibernate/ojdbc8.jar</systemPath>
         </dependency>
 
         <dependency>

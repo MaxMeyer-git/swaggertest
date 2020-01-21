@@ -1,5 +1,6 @@
 package com.xfive.swaggertest.serrtest;
 
+import com.xfive.swaggertest.someClasses.User;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
@@ -9,20 +10,22 @@ public class Main {
     public static void main(String[] args) {
 
 
-        TarReqCreate tcr = new TarReqCreate();
-        TariffCreationRequest tariffCreationRequest = tcr.creationRequest();
+//        TarReqCreate tcr = new TarReqCreate();
+//        TariffCreationRequest tariffCreationRequest = tcr.creationRequest();
 
-        Configuration con = new Configuration().configure().addAnnotatedClass(TariffCreationRequest.class);
-//        Configuration con = new Configuration().configure().addAnnotatedClass("src/main/java/com/xfive/swaggertest/hibernate.cfg.xml");
+        User user1 = new User(1, "vaus", 212);
 
-        SessionFactory sf = con.buildSessionFactory();
-        Session session = sf.openSession();
+        Configuration conf = new Configuration().configure();
 
-        Transaction tx = session.beginTransaction();
+        SessionFactory sessionFactory = conf.buildSessionFactory();
+        Session session = sessionFactory.openSession();
+        Transaction transaction = session.beginTransaction();
 
-        session.save(tariffCreationRequest);
-        tx.commit();
+        session.save(user1);
 
+        transaction.commit();
+        session.close();
+        sessionFactory.close();
 
 
     }

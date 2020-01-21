@@ -2,26 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85b47b58-3f30-41e5-847e-9ca644971b44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xfive/swaggertest/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xfive/swaggertest/serrtest/Authorizations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xfive/swaggertest/serrtest/Functionality.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xfive/swaggertest/serrtest/Functions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xfive/swaggertest/serrtest/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xfive/swaggertest/serrtest/TarReqCreate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xfive/swaggertest/211.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xfive/swaggertest/controller/UsersResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xfive/swaggertest/controller/UsersResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xfive/swaggertest/someClasses/TarifFunctionalities.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xfive/swaggertest/someClasses/TariffCreationRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xfive/swaggertest/serrtest/TariffCreationRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xfive/swaggertest/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xfive/swaggertest/serrtest/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xfive/swaggertest/serrtest/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xfive/swaggertest/someClasses/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xfive/swaggertest/someClasses/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/swaggertest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/swaggertest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xfive/swaggertest/SwaggertestApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xfive/swaggertest/SwaggertestApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xfive/swaggertest/config/SwaggerConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xfive/swaggertest/config/SwaggerConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xfive/swaggertest/controller/HelloPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xfive/swaggertest/controller/HelloPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xfive/swaggertest/controller/UsersResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xfive/swaggertest/controller/UsersResource.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/xfive/swaggertest/someClasses/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xfive/swaggertest/someClasses/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/xfive/swaggertest/SwaggertestApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/xfive/swaggertest/SwaggertestApplicationTests.class" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,29 +33,100 @@
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="SYSTEM: schema" type="3abd1b6a:OraImplModel$Schema" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="roles" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="SYSTEM: schema" type="3abd1b6a:OraImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
     </expand>
     <select />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xfive/swaggertest/someClasses/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="310">
+              <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/43f3e5bd-a6d8-457b-9262-db3611c6c084/console.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="18" selection-start-column="18" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xfive/swaggertest/serrtest/Authorizations.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="19" column="60" selection-start-line="19" selection-start-column="60" selection-end-line="19" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xfive/swaggertest/211.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="47" selection-start-column="47" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="69" column="55" selection-start-line="69" selection-start-column="55" selection-end-line="69" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xfive/swaggertest/serrtest/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="478">
+              <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xfive/swaggertest/serrtest/Functions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -76,13 +139,128 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/xfive/swaggertest/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xfive/swaggertest/serrtest/Authorizations.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/43f3e5bd-a6d8-457b-9262-db3611c6c084/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xfive/swaggertest/serrtest/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xfive/swaggertest/someClasses/User.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1912" />
+    <option name="y" value="-126" />
+    <option name="width" value="1936" />
+    <option name="height" value="1176" />
+  </component>
   <component name="ProjectId" id="1WTgXdACe734OuybLqjyvkGwPpU" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="swaggertest2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swaggertest2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swaggertest2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swaggertest2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swaggertest2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swaggertest2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swaggertest2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swaggertest2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swaggertest2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swaggertest2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="swaggertest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swaggertest2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swaggertest2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="swaggertest" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swaggertest2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swaggertest2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="swaggertest" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swaggertest2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swaggertest2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="swaggertest" type="462c0819:PsiDirectoryNode" />
+              <item name="serrtest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swaggertest2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swaggertest2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="swaggertest" type="462c0819:PsiDirectoryNode" />
+              <item name="someClasses" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swaggertest2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swaggertest2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swaggertest2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swaggertest2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="oracle" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -91,20 +269,37 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../RUBLS/backendapi" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../forTests/hibernate/ojdbc8.jar!/" />
     <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15332031" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.CommitDialog" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="R:\Java\swaggertest2\src\main\java\com\xfive\swaggertest" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.xfive.swaggertest.someClasses" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="R:\Java\swaggertest2\src\main\resources" />
       <recent name="R:\Java\swaggertest2\src\main\java\com\xfive\swaggertest\someClasses" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -179,6 +374,50 @@
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5962000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1912" y="-126" width="1936" height="1176" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.124200426" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Database Console" weight="0.32981783" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.32885906" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.32885906" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32885906" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="TCPMON" order="6" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32942432" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+    </layout>
+  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -187,82 +426,226 @@
     <option name="LAST_COMMIT_MESSAGE" value="й" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="238" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579617822471">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state x="552" y="238" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1579617822471" />
-    <state x="924" y="313" key="#com.intellij.ide.util.MemberChooser" timestamp="1579602625665">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state x="924" y="313" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1160@0.0.1920.1160" timestamp="1579602625665" />
-    <state x="690" y="325" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1579601171541">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state x="690" y="325" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1579601171541" />
-    <state x="636" y="304" width="265" height="216" key="Github.ShareDialog" timestamp="1579197035681">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="636" y="304" width="265" height="216" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1579197035681" />
-    <state x="587" y="115" key="Github.UntrackedFilesDialog" timestamp="1579197053592">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="587" y="115" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1579197053592" />
-    <state width="1877" height="320" key="GridCell.Tab.0.bottom" timestamp="1579619054860">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state width="1877" height="320" key="GridCell.Tab.0.bottom/0.0.1920.1160@0.0.1920.1160" timestamp="1579619054860" />
-    <state width="1877" height="320" key="GridCell.Tab.0.center" timestamp="1579619054860">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state width="1877" height="320" key="GridCell.Tab.0.center/0.0.1920.1160@0.0.1920.1160" timestamp="1579619054860" />
-    <state width="1877" height="320" key="GridCell.Tab.0.left" timestamp="1579619054859">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state width="1877" height="320" key="GridCell.Tab.0.left/0.0.1920.1160@0.0.1920.1160" timestamp="1579619054859" />
-    <state width="1877" height="320" key="GridCell.Tab.0.right" timestamp="1579619054860">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state width="1877" height="320" key="GridCell.Tab.0.right/0.0.1920.1160@0.0.1920.1160" timestamp="1579619054860" />
-    <state width="1877" height="320" key="GridCell.Tab.1.bottom" timestamp="1579618667734">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state width="1877" height="320" key="GridCell.Tab.1.bottom/0.0.1920.1160@0.0.1920.1160" timestamp="1579618667734" />
-    <state width="1877" height="320" key="GridCell.Tab.1.center" timestamp="1579618667734">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state width="1877" height="320" key="GridCell.Tab.1.center/0.0.1920.1160@0.0.1920.1160" timestamp="1579618667733" />
-    <state width="1877" height="320" key="GridCell.Tab.1.left" timestamp="1579618667733">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state width="1877" height="320" key="GridCell.Tab.1.left/0.0.1920.1160@0.0.1920.1160" timestamp="1579618667733" />
-    <state width="1877" height="320" key="GridCell.Tab.1.right" timestamp="1579618667734">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state width="1877" height="320" key="GridCell.Tab.1.right/0.0.1920.1160@0.0.1920.1160" timestamp="1579618667734" />
-    <state width="1548" height="391" key="GridCell.Tab.2.bottom" timestamp="1579191371687">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state width="1548" height="391" key="GridCell.Tab.2.bottom/0.0.1920.1160@0.0.1920.1160" timestamp="1579191371687" />
-    <state width="1548" height="391" key="GridCell.Tab.2.center" timestamp="1579191371686">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state width="1548" height="391" key="GridCell.Tab.2.center/0.0.1920.1160@0.0.1920.1160" timestamp="1579191371686" />
-    <state width="1548" height="391" key="GridCell.Tab.2.left" timestamp="1579191371686">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state width="1548" height="391" key="GridCell.Tab.2.left/0.0.1920.1160@0.0.1920.1160" timestamp="1579191371686" />
-    <state width="1548" height="391" key="GridCell.Tab.2.right" timestamp="1579191371687">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state width="1548" height="391" key="GridCell.Tab.2.right/0.0.1920.1160@0.0.1920.1160" timestamp="1579191371687" />
-    <state x="311" y="0" key="SettingsEditor" timestamp="1579617166797">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1579293609034" />
-    <state x="311" y="0" key="SettingsEditor/0.0.1920.1160@0.0.1920.1160" timestamp="1579617166797" />
-    <state x="143" y="260" width="672" height="678" key="search.everywhere.popup" timestamp="1579182533113">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state x="143" y="260" width="672" height="678" key="search.everywhere.popup/0.0.1920.1160@0.0.1920.1160" timestamp="1579182533113" />
+    <state x="552" y="238" key="#com.intellij.execution.impl.EditConfigurationsDialog" />
+    <state x="552" y="238" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1160@0.0.1920.1160" />
+    <state x="924" y="313" key="#com.intellij.ide.util.MemberChooser" />
+    <state x="924" y="313" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1160@0.0.1920.1160" />
+    <state x="690" y="325" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" />
+    <state x="690" y="325" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1160@0.0.1920.1160" />
+    <state x="636" y="304" width="265" height="216" key="Github.ShareDialog" />
+    <state x="636" y="304" width="265" height="216" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" />
+    <state x="587" y="115" key="Github.UntrackedFilesDialog" />
+    <state x="587" y="115" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" />
+    <state width="1877" height="320" key="GridCell.Tab.0.bottom" />
+    <state width="1877" height="320" key="GridCell.Tab.0.bottom/0.0.1920.1160@0.0.1920.1160" />
+    <state width="1877" height="320" key="GridCell.Tab.0.center" />
+    <state width="1877" height="320" key="GridCell.Tab.0.center/0.0.1920.1160@0.0.1920.1160" />
+    <state width="1877" height="320" key="GridCell.Tab.0.left" />
+    <state width="1877" height="320" key="GridCell.Tab.0.left/0.0.1920.1160@0.0.1920.1160" />
+    <state width="1877" height="320" key="GridCell.Tab.0.right" />
+    <state width="1877" height="320" key="GridCell.Tab.0.right/0.0.1920.1160@0.0.1920.1160" />
+    <state width="1877" height="320" key="GridCell.Tab.1.bottom" />
+    <state width="1877" height="320" key="GridCell.Tab.1.bottom/0.0.1920.1160@0.0.1920.1160" />
+    <state width="1877" height="320" key="GridCell.Tab.1.center" />
+    <state width="1877" height="320" key="GridCell.Tab.1.center/0.0.1920.1160@0.0.1920.1160" />
+    <state width="1877" height="320" key="GridCell.Tab.1.left" />
+    <state width="1877" height="320" key="GridCell.Tab.1.left/0.0.1920.1160@0.0.1920.1160" />
+    <state width="1877" height="320" key="GridCell.Tab.1.right" />
+    <state width="1877" height="320" key="GridCell.Tab.1.right/0.0.1920.1160@0.0.1920.1160" />
+    <state width="1548" height="391" key="GridCell.Tab.2.bottom" />
+    <state width="1548" height="391" key="GridCell.Tab.2.bottom/0.0.1920.1160@0.0.1920.1160" />
+    <state width="1548" height="391" key="GridCell.Tab.2.center" />
+    <state width="1548" height="391" key="GridCell.Tab.2.center/0.0.1920.1160@0.0.1920.1160" />
+    <state width="1548" height="391" key="GridCell.Tab.2.left" />
+    <state width="1548" height="391" key="GridCell.Tab.2.left/0.0.1920.1160@0.0.1920.1160" />
+    <state width="1548" height="391" key="GridCell.Tab.2.right" />
+    <state width="1548" height="391" key="GridCell.Tab.2.right/0.0.1920.1160@0.0.1920.1160" />
+    <state x="311" y="0" key="SettingsEditor" />
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" />
+    <state x="311" y="0" key="SettingsEditor/0.0.1920.1160@0.0.1920.1160" />
+    <state x="143" y="260" width="672" height="678" key="search.everywhere.popup" />
+    <state x="143" y="260" width="672" height="678" key="search.everywhere.popup/0.0.1920.1160@0.0.1920.1160" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xfive/swaggertest/serrtest/TariffCreationRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-324">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xfive/swaggertest/serrtest/Functions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xfive/swaggertest/SwaggertestApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xfive/swaggertest/config/SwaggerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xfive/swaggertest/controller/UsersResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-start-column="4" selection-end-line="29" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xfive/swaggertest/serrtest/Functionality.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../forTests/hibernate/ojdbc8.jar!/oracle/jdbc/driver/T4CTTIoer11.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="179" selection-start-line="179" selection-end-line="179" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xfive/swaggertest/serrtest/Authorizations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="19" column="60" selection-start-line="19" selection-start-column="60" selection-end-line="19" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xfive/swaggertest/211.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="47" selection-start-column="47" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xfive/swaggertest/someClasses/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xfive/swaggertest/serrtest/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="69" column="55" selection-start-line="69" selection-start-column="55" selection-end-line="69" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/43f3e5bd-a6d8-457b-9262-db3611c6c084/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>swaggertest</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>ojdbc8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

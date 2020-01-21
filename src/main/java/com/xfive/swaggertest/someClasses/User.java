@@ -4,21 +4,33 @@ import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
+
+import javax.persistence.*;
+import java.util.UUID;
 
 @ApiModel
 @Getter
 @Setter
 @AllArgsConstructor
+@NoArgsConstructor
+@Entity
+@Table(name = "usersss")
 public class User {
 
+        @Id
+//        @GeneratedValue
+        @Column(name = "id", nullable = false)
+        public int id;
+
         @ApiModelProperty(value = "Имя пользователя", required = true)
-        String name;
+        @Column(name = "name", nullable = false)
+        public String name;
 
         @ApiModelProperty(value = "Зп юзера", required = true)
-        int sal;
+        @Column(name = "salll", nullable = false)
+        public int sal;
 
-        public void doSomething (){
 
-        }
 }
