@@ -6,7 +6,7 @@ import java.util.*;
 
 public class TarReqCreate {
 
-    public TariffCreationRequest creationRequest (){
+    public void creationRequest (){
 
 
         Date date1 = new Date();
@@ -39,13 +39,13 @@ public class TarReqCreate {
         functionality.add(Functionality.REPORT_VIEW);
         functionality.add(Functionality.REPORT_COPY);
 
-        var tarif = new TariffCreationRequest("Lol",
-                date1,
-                date2,
-                la,
-                false);
-
-        return tarif;
+//        var tarif = new TariffCreationRequest("Lol",
+//                date1,
+//                date2,
+//                la,
+//                false);
+//
+//        return tarif;
 
 
     }

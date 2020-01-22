@@ -34,12 +34,12 @@ public class UsersResource {
 
 
 
-    @GetMapping ("/tariff")
-    public TariffCreationRequest getTarif () {
-
-        return new TarReqCreate().creationRequest();
-
-    }
+//    @GetMapping ("/tariff")
+//    public TariffCreationRequest getTarif () {
+//
+////        return new TarReqCreate().creationRequest();
+//
+//    }
 
 
 //

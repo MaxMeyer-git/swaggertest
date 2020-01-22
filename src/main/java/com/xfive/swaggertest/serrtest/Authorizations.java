@@ -5,6 +5,7 @@ import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Getter;
 
+import javax.persistence.Embeddable;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotEmpty;
 import java.util.Collection;
@@ -13,6 +14,8 @@ import java.util.UUID;
 
 @ApiModel
 @Getter
+@Embeddable
+
 public class Authorizations {
 
     @ApiModelProperty(value = "report Type Id", required = true)
@@ -22,7 +25,7 @@ public class Authorizations {
 
     @ApiModelProperty(value = "ui4 code", required = true)
     @NotEmpty
-    private final Collection<String> productCategoriesCods;
+    private  Collection<String> productCategoriesCods;
 
     @ApiModelProperty(value = "Список Functions", required = true)
     @NotEmpty
