@@ -41,7 +41,8 @@ public class ReportTypeWrapper  {
 //    @Column(name = "repType")
 
     @EmbeddedId
-    private ReportTypeId id;
+//@Column(name = "repid")
+private ReportTypeId repid;
 
 
 //    @ManyToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)

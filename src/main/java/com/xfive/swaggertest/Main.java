@@ -1,7 +1,8 @@
 package com.xfive.swaggertest;
 
+import com.xfive.swaggertest.model.ReportType;
+import com.xfive.swaggertest.model.Tariff;
 import com.xfive.swaggertest.serrtest.*;
-import com.xfive.swaggertest.someClasses.User;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;

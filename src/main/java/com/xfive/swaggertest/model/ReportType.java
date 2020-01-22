@@ -1,4 +1,4 @@
-package com.xfive.swaggertest.serrtest;
+package com.xfive.swaggertest.model;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

@@ -1,6 +1,7 @@
-package com.xfive.swaggertest.serrtest;
+package com.xfive.swaggertest.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.xfive.swaggertest.model.Functionality;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Getter;

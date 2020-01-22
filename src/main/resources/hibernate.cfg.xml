@@ -19,13 +19,13 @@
 
 
 
-<!--        <mapping class="com.xfive.swaggertest.serrtest.Functions"/>-->
+<!--        <mapping class="com.xfive.swaggertest.model.Functions"/>-->
 <!--        <mapping class="com.xfive.swaggertest.serrtest.TariffCreationRequest"/>-->
-<!--        <mapping class="com.xfive.swaggertest.serrtest.Functions"/>-->
-<!--        <mapping class="com.xfive.swaggertest.serrtest.Functionality"/>-->
-<!--        <mapping class="com.xfive.swaggertest.serrtest.Authorizations"/>-->
-        <mapping class="com.xfive.swaggertest.serrtest.ReportType"/>
-        <mapping class="com.xfive.swaggertest.serrtest.Tariff"/>
+<!--        <mapping class="com.xfive.swaggertest.model.Functions"/>-->
+<!--        <mapping class="com.xfive.swaggertest.model.Functionality"/>-->
+<!--        <mapping class="com.xfive.swaggertest.model.Authorizations"/>-->
+        <mapping class="com.xfive.swaggertest.model.ReportType"/>
+        <mapping class="com.xfive.swaggertest.model.Tariff"/>
         <mapping class="com.xfive.swaggertest.serrtest.ReportTypeWrapper"/>
         <mapping class="com.xfive.swaggertest.serrtest.ReportTypeId"/>
         <mapping class="com.xfive.swaggertest.someClasses.User"/>

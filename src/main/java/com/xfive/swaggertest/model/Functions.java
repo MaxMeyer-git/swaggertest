@@ -1,8 +1,7 @@
-package com.xfive.swaggertest.serrtest;
+package com.xfive.swaggertest.model;
 
 import com.fasterxml.jackson.annotation.JsonValue;
 
-import java.util.Collection;
 import java.util.List;
 
 public enum Functions  {

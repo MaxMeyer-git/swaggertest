@@ -1,6 +1,7 @@
 package com.xfive.swaggertest.serrtest;
 
-import lombok.var;
+import com.xfive.swaggertest.model.Authorizations;
+import com.xfive.swaggertest.model.Functionality;
 
 import java.util.*;
 
