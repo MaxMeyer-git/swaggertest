@@ -28,7 +28,7 @@
         <mapping class="com.xfive.swaggertest.model.Tariff"/>
         <mapping class="com.xfive.swaggertest.serrtest.ReportTypeWrapper"/>
         <mapping class="com.xfive.swaggertest.serrtest.ReportTypeId"/>
-        <mapping class="com.xfive.swaggertest.someClasses.User"/>
+<!--        <mapping class="com.xfive.swaggertest.someClasses.LoloUserUser"/>-->
 
 
     </session-factory>

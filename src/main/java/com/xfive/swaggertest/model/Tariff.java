@@ -36,16 +36,28 @@ public class Tariff {
 //    @Fetch(FetchMode.SUBSELECT)
 //    private List<ReportType> reportTypes;
 
-//    @OneToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
-////    @JoinTable(name = "tariff_report_type", joinColumns = @JoinColumn(name = "tariff_id"),
-//////            inverseJoinColumns = {@JoinColumn(name = "repid"), @JoinColumn(name = "description")})
+//    @ManyToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+//    @JoinTable(name = "tariff_report_type", joinColumns = @JoinColumn(name = "tariff_id"),
+//            inverseJoinColumns = {@JoinColumn(name = "repid"), @JoinColumn(name = "description")})
 ////            inverseJoinColumns = @JoinColumn(name = "repid"))
-////    @Column(name = "report_type_id")
-////    @Fetch(FetchMode.SUBSELECT)
+//    @Column(name = "report_type_id")
+//    @Fetch(FetchMode.SUBSELECT)
+//    private List<ReportTypeWrapper> reportTypeWrappers;
+
 
     @OneToMany (cascade = CascadeType.ALL)
-    @JoinColumn (name = "tariff_id" , referencedColumnName = "tariff_id")
+    @JoinColumn (name = "tariff_id")
+//            , referencedColumnName = "tariff_id")
     private List<ReportTypeWrapper> reportTypeWrappers;
+
+
+//    @OneToMany(cascade=CascadeType.ALL)
+//    @JoinTable(name="rttttt", joinColumns={@JoinColumn(name="tarif_id",
+//            referencedColumnName="id")}
+//            , inverseJoinColumns={@JoinColumn(name="ACCOUNT_ID", referencedColumnName="ID")})
+//    private List<ReportTypeWrapper> reportTypeWrappers;
+
+
 
 
 //    private ReportTypeWrapper reportTypeWrapper;

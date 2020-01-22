@@ -16,7 +16,7 @@ import java.util.UUID;
 @Getter
 @Setter
 @NoArgsConstructor
-public class ReportType   {
+public class ReportType implements Serializable  {
 
     public static final UUID CATEGORY_DIAGNOSIS = UUID.fromString("69dd6296-cd47-4874-84ed-857250e03fb5");
     public static final UUID CATEGORY_DIAGNOSIS_OPTIMIZED = UUID.fromString("867b814b-2fc7-4322-b1c0-0f9eb85ca28b");
@@ -27,7 +27,7 @@ public class ReportType   {
     private static final UUID EFFICIENCY_OF_NEW_LAUNCH = UUID.fromString("d31233e6-f596-4c2b-bd72-6ab2fedd3b83");
 
     @Id
-    @Column(name = "repid")
+    @Column(name = "id")
     private int repid;
 
     @Column(name = "description")

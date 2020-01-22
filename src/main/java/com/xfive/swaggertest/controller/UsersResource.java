@@ -2,21 +2,16 @@ package com.xfive.swaggertest.controller;
 
 
 import com.xfive.swaggertest.serrtest.*;
-import com.xfive.swaggertest.someClasses.User;
 import io.swagger.annotations.Api;
-import io.swagger.annotations.ApiParam;
 import io.swagger.annotations.SwaggerDefinition;
 import io.swagger.annotations.Tag;
-import lombok.var;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.*;
 
 import static com.google.common.base.Preconditions.checkArgument;
 
 @Api(tags = {"Пользователи"}, consumes = "application/json; utf-8", produces = "application/json; utf-8")
-@SwaggerDefinition(tags = {@Tag(name = "User", description = "User")})
+@SwaggerDefinition(tags = {@Tag(name = "LoloUser", description = "LoloUser")})
 @RestController
 @RequestMapping ("/rest/user")
 public class UsersResource {
@@ -44,24 +39,24 @@ public class UsersResource {
 
 //
 //    @GetMapping ("/")
-//    public List<User> getUsers() {
+//    public List<LoloUser> getUsers() {
 //        return Arrays.asList(
-//                new User("Peter", 2000),
-//                new User("Peter", 2000)
+//                new LoloUser("Peter", 2000),
+//                new LoloUser("Peter", 2000)
 //        );
 //    }
 //
 //
 //    @GetMapping("/{userName}")
-//    public User getUser(
+//    public LoloUser getUser(
 //            @ApiParam (value = "UserName - enter a name to get it full profile")
 //            @PathVariable("userName") final String userName) {
-//        return new User(userName, 100);
+//        return new LoloUser(userName, 100);
 //    }
 //
 //    @GetMapping
 ////            ("/{userName}")
-//    public User getNewUser (
+//    public LoloUser getNewUser (
 //            @RequestHeader(name = "Authorization") String token,
 //
 //            @RequestParam(value = "name", required = false, defaultValue = "Vasya")
@@ -71,14 +66,14 @@ public class UsersResource {
 //            @ApiParam(value = "Enter users salary", example = "32") Integer salary){
 //
 //        if (token.equals("test")){
-//            return new User("Test person", 9999);
+//            return new LoloUser("Test person", 9999);
 //
 //        }if (token.equals("Secret")){
 ////            checkArgument(token != null );
-//            return new User("пасхалка", 44);
+//            return new LoloUser("пасхалка", 44);
 //        }
 //        else {
-//            return new User(name, salary);
+//            return new LoloUser(name, salary);
 //        }
 //    }
 

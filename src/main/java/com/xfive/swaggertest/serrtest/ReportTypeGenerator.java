@@ -52,14 +52,31 @@ public class ReportTypeGenerator {
 //    }
 
 
+    public List<ReportTypeWrapper> wraperList (List<ReportType> reportTypeList) {
+
+        List<ReportTypeWrapper> wraperList = new ArrayList<>() ;
+
+        for (ReportType rep: reportTypeList) {
+            ReportTypeWrapper reportTypeWrapper = new ReportTypeWrapper();
+            reportTypeWrapper.setRepid(rep.getRepid());
+
+//            ReportTypeId reportTypeId = new ReportTypeId();
+//            reportTypeId.setRepid(rep.getRepid());
+//            reportTypeId.setDescription(rep.getDescription());
+//            reportTypeWrapper.setRepid(reportTypeId);
+//            wraperList.add(reportTypeWrapper);
+        }
+        return wraperList;
+
+    }
+
+//
 //    public List<ReportTypeWrapper> wraperList (List<ReportType> reportTypeList) {
 //
 //        List<ReportTypeWrapper> wraperList = new ArrayList<>() ;
 //
 //        for (ReportType rep: reportTypeList) {
 //            ReportTypeWrapper reportTypeWrapper = new ReportTypeWrapper();
-//            reportTypeWrapper.setRepid(rep.getRepid());
-//
 //            ReportTypeId reportTypeId = new ReportTypeId();
 //            reportTypeId.setRepid(rep.getRepid());
 //            reportTypeId.setDescription(rep.getDescription());
@@ -67,25 +84,8 @@ public class ReportTypeGenerator {
 //            wraperList.add(reportTypeWrapper);
 //        }
 //        return wraperList;
-//
+////
 //    }
-
-//
-    public List<ReportTypeWrapper> wraperList (List<ReportType> reportTypeList) {
-
-        List<ReportTypeWrapper> wraperList = new ArrayList<>() ;
-
-        for (ReportType rep: reportTypeList) {
-            ReportTypeWrapper reportTypeWrapper = new ReportTypeWrapper();
-            ReportTypeId reportTypeId = new ReportTypeId();
-            reportTypeId.setRepid(rep.getRepid());
-            reportTypeId.setDescription(rep.getDescription());
-            reportTypeWrapper.setRepid(reportTypeId);
-            wraperList.add(reportTypeWrapper);
-        }
-        return wraperList;
-//
-    }
 //    public ReportTypeWrapper wraperList (List<ReportType> reportTypeList) {
 //        return new ReportTypeWrapper().setReportTypes(reportTypeList);
 //

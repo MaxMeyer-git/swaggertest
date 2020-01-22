@@ -10,8 +10,8 @@ public class ReportTypeRepositoryService  {
 
     private ReportTypeRepository reportTypeRepository;
 
-    public List<ReportType> findById (List<UUID> uuid){
-        return reportTypeRepository.findById(uuid);
-    }
+//    public List<ReportType> findById (List<UUID> uuid){
+//        return reportTypeRepository.findById(uuid);
+//    }
 
 }
